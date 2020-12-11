@@ -1,0 +1,22 @@
+{
+  "name": "proyectonodejs",
+  "version": "1.0.0",
+  "description": "practica en el uso de node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cortezhac/practicanodejs.git"
+  },
+  "author": "Irvin Cortez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cortezhac/practicanodejs/issues"
+  },
+  "homepage": "https://github.com/Cortezhac/practicanodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
