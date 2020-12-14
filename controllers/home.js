@@ -1,5 +1,6 @@
 exports.renderHome = (request, response) =>{
-  response.sendFile(process.cwd()+ "/views/index.html");
+  //response.sendFile(process.cwd()+ "/views/index.html");sin motor de renderizado
+  response.render("index.ejs");
 }
 
 /**
