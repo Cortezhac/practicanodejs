@@ -1,7 +1,9 @@
-exports.renderHome = (request, response) =>{
+export const renderHome = (request, response) =>{
   //response.sendFile(process.cwd()+ "/views/index.html");sin motor de renderizado
   response.render("index.ejs");
 }
+
+export default renderHome;
 
 /**
  * Antes utiliza la variable __dirname pero esta la ruta del archivo en donde se esta ejecutando en este caso 

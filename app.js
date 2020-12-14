@@ -11,7 +11,7 @@ const server = express();
 /** Load all resource on public [Carga los recuros de public} */
 server.use(express.static(path.join(__dirname, "public")));
 /**Cargamos el motor encargado de renderziar vista html dinanmicamente*/
-server.set("views", path.join(__dirname + "/views"));
+server.set("views", path.join(__dirname + "/views"));// Asignamos el directorio en donde se encuentran las vistas
 server.set('view engine', 'ejs');
 /** when arrive this route, Cuando llege esta ruta se utilizar el router auth para obtener los recursos*/
 server.use("/", homeRouter);
