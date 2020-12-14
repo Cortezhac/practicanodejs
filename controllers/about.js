@@ -3,4 +3,4 @@ export const renderAbout = (request, response) =>{
   response.render("about.ejs");
 }
 
-export default renderAbout;
+export default {renderAbout};

@@ -3,4 +3,4 @@ export const renderBlog = (resquest, response) => {
   response.render("blog.ejs");
 }
 
-export default renderBlog;
+export default {renderBlog};

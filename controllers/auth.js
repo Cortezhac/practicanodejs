@@ -4,4 +4,4 @@ export const renderAuth = (require, response) => {
   response.render("auth.ejs");
 }
 
-export default renderAuth;
+export default {renderAuth};

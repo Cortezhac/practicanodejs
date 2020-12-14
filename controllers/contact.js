@@ -3,4 +3,4 @@ export const renderContact = (request, response) => {
   response.render('contact.ejs');
 }
 
-export default renderContact;
+export default {renderContact};
