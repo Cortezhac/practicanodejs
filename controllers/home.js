@@ -1,6 +1,6 @@
 export const renderHome = (request, response) =>{
   //response.sendFile(process.cwd()+ "/views/index.html");sin motor de renderizado
-  response.render("index.ejs");
+  response.render("index.ejs", {path : "Home"});
 }
 
 export default {renderHome};
