@@ -21,5 +21,16 @@
       </ul>
     </div>
   </nav>
+  <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+    <% post.forEach( p => { %>
+    <div>
+      <div class="uk-card uk-card-default uk-card-body">
+        <h1><%= p.title %> </h1>
+        <h4><%= p.time %> </h4>
+        <p><%= p.body %> </p>
+      </div>
+    </div>
+      <%}); %> 
+</div>
 </body>
 </html>
