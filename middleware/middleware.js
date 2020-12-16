@@ -1,4 +1,4 @@
-export const perseBody = (request, response, next) => {
+export const parseBody = (request, response, next) => {
   let datos = "";
   request.on("data", dataPack => {
     datos += dataPack;
