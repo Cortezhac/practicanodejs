@@ -1,4 +1,3 @@
-import { response } from "express";
 
 export const renderContact = (request, response) => {
   //response.sendFile(process.cwd() + "/views/contact.html");

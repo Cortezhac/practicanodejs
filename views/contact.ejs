@@ -6,19 +6,15 @@
 
   <div class="uk-container">
     <div class="uk-card uk-card-default uk-card-body">
-      <form method="POST" action="contact"><!-- Controlaor-->
+      <form method="POST" action="blog"><!-- Controlaor-->
         <fieldset class="uk-fieldset">
-          <legend class="uk-legend">First Name</legend>
+          <legend class="uk-legend">Title Post</legend>
           <div class="uk-margin">
-            <input class="uk-input" name="firstname" type="text" placeholder="Input">
+            <input class="uk-input" name="title" type="text" placeholder="Title">
           </div>
-          <legend class="uk-legend">Last name</legend>
+          <legend class="uk-legend">Body Post</legend>
           <div class="uk-margin">
-            <input class="uk-input" name="secondname" type="text" placeholder="Input">
-          </div>
-          <legend class="uk-legend">Message</legend>
-          <div class="uk-margin">
-            <textarea class="uk-textarea" name="message" rows="5" placeholder="Textarea"></textarea>
+            <textarea class="uk-textarea" name="body" rows="5" placeholder="Description post"></textarea>
           </div>
           <div class="uk-margin">
             <button type="submit" class="uk-button uk-button-primary">Send</button>

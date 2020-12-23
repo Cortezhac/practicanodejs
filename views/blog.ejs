@@ -3,17 +3,19 @@
   <%- include('./templates/head.ejs') %> 
 <body>
   <%- include('./templates/navbar.ejs') %>
-  
+
   <div class="uk-child-width-expand@s uk-text-center" uk-grid>
-    <% post.forEach( p => { %>
-    <div>
-      <div class="uk-card uk-card-default uk-card-body">
-        <h1><%= p.title %> </h1>
-        <h4><%= p.time %> </h4>
-        <p><%= p.body %> </p>
+    <% posts.forEach( (p) => {%>
+      <div>
+        <div class="uk-card uk-card-default uk-card-body">
+          <h1>
+            <%= p.title %>
+          </h1>
+          <%= p.body %>
+        </div>
       </div>
-    </div>
-      <%}); %> 
+      <% }); %>
+  </div>
 </div>
 </body>
 </html>

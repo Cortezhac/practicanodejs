@@ -1,11 +1,17 @@
 import express from 'express';
 import path from "path";
 
+import dotenv from "dotenv";
+import {connectDB} from "./config/db.js";
+
 import authRouter from "./routers/auth.js";
 import homeRouter from "./routers/home.js";
 import contactRouter from "./routers/contact.js";
 import blogRouter from "./routers/blog.js";
 import abooutRouter from "./routers/about.js";
+
+dotenv.config();
+connectDB();
 
 const server = express();
 /** Load all resource on public [Carga los recuros de public} */
